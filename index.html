@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <!-- Scroll Top-->
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Eriko</a>
+
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#aboutMe" class="nav-link">About Me</a></li>
+                <li><a href="#experience" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="images/Profile.png" alt="">
+            </div>
+            <div class="home-text">
+                <!--<h3>Hello</h3>-->
+                <h2>I'm <span class="color">John Eriko</span></h2>
+                <p>
+                    I'm an aspiring <span class="color">Software Engineer</span> with strong passion in making <span class="color">solutions</span> to problems and building programs that may help potential clients, with </spa<span class="color">hardwork</span> everything will come into place.
+                    <br>Here's more <span class="color">about me.</span>
+                </p>
+                <div class="social">
+                    <a href="https://www.facebook.com/johneriko.boncodin/"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/_erikooong/?hl=en"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/john-eriko-082642237/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section class="about container" id="aboutMe">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Software Engineer</h2>
+                <a href="images/cv.pdf" class="btn" download="cv.pdf">
+                    Download CV
+                    <i class='bx bx-download'></i>
+                </a>
+            </div> 
+            <div class="about-text">
+                <p>Hello! I am John Eriko Boncodin. A recent college graduate,</p>
+                <p>I am a passionate and hardworking and sociable person. My hunger for doing great in my work will keep me motivated to do works for my company.</p>
+                <p>Get your project book with <a href="#contact">Contact</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="experience container" id="experience">
+        <h2 class="heading">Skills</h2>
+        <div class="experince-content">
+            <div class="experience-box">
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Development</h2>
+                <p>I Learned about this skill in my College, They teached  us how to create a website. We use html, css and javascript</p>
+            </div>
+            <div class="experience-box">
+                <i class='bx bx-code-curly'></i>
+                <h2>C#</h2>
+                <p>I plan on mastering this Language for I know I still lack the knowledge and skills to use this language even though I Learned how to use this in college</p>
+            </div>
+            <div class="experience-box">
+                <i class='bx bx-data'></i>
+                <h2>My SQL</h2>
+                <p>Database is an essentiial part of build programs, we need to have knowldge about most of the languagesand database is no exxception. </p>
+            </div>
+        </div>
+    </section>
+    <setion class="portfolio container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="" class="portolio-image">
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>College Week Project</h2>
+                    <a href="#" >
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="" class="portolio-image">
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Log in Page</h2>
+                    <a href="#" >
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="" class="portolio-image">
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Positions</h2>
+                    <a href="#" >
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.png" alt="" class="portolio-image">
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Calendar</h2>
+                    <a href="#" >
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </setion>
+    <section class="contact container" id="contact">
+        <!-- Heading -->
+        <h2 class="heading">Contact</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required >
+            <input type="email" name="" id="" placeholder="Email Address" class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write Message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!-- footer-->
+    <footer class="footer container" id="footer">
+        <div class="social">
+            <a href="#contact"><i class='bx bx-envelope'></i></a>
+            <a href="https://www.facebook.com/johneriko.boncodin/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/_erikooong/?hl=en"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/john-eriko-082642237/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <p>&#169; 2022. John Eriko Boncodin</p>
+    </footer>
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("xl9OyIO8aqPaZMSpR");
+        })();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
