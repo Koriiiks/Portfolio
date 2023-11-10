@@ -12,10 +12,10 @@ window.onscroll = () =>{
 
 //Email JS
 function validate(){
-    let name = document.querySelector(".name")
-    let email = document.querySelector(".email")
-    let msg = document.querySelector(".message")
-    let sendBtn = document.querySelector(".send-btn")
+    let name = document.querySelector(".name").value;
+    let email = document.querySelector(".email").value;
+    let msg = document.querySelector(".message").value;
+    let sendBtn = document.querySelector(".send-btn");
 
     sendBtn.addEventListener('click', (e) =>{
         e.preventDefault();
@@ -37,10 +37,10 @@ function  emptyerror(){
       });
 }
 function sendmail(name,email,msg){
-    emailjs.send("service_znhj89b","template_zz7xu6c",{
-        to_name: "John Eriko",
-        from_name: email,
-        message: msg,
+    emailjs.send("service_k4hh6gq","template_ik1f8vj",{
+        name: name,
+        email: email,
+        msg: msg,
         });
 }
 function success(){
