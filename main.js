@@ -12,9 +12,9 @@ window.onscroll = () =>{
 
 //Email JS
 function validate(){
-    let name = document.querySelector(".name").value;
-    let email = document.querySelector(".email").value;
-    let msg = document.querySelector(".message").value;
+    let name = document.querySelector(".name");
+    let email = document.querySelector(".email");
+    let msg = document.querySelector(".message");
     let sendBtn = document.querySelector(".send-btn");
 
     sendBtn.addEventListener('click', (e) =>{
